@@ -5,9 +5,10 @@ body {
 	background-size: cover;
 	color: #fff;
 	/*defaul font from google fonts*/
-	font-family: 'Cinzel', serif;
+	font-family: 'Patua One', cursive;
 	/*background-image: url(../images/pattern4.png);*/
 	/*background-color: #0070C9;*/
+
 }
 
 h1	{
@@ -15,15 +16,16 @@ h1	{
 	margin-bottom: 0;
 	background-color: #333;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px #211f1f;
 }
 
 h2 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: yellow; 
-	text-shadow: 2px 2px #333;
-}
+	color: #ecbb22; 
+	text-shadow: 2px 2px #211f1f;
+	}
 
 #me {
 	height: 200px;
@@ -32,17 +34,18 @@ h2 {
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
-	margin-top: 50px;
+	margin-top: 200px;
 }
 
 .about {
-	width: 100%;
-	font-size: 18px;
+	/*width: 100%;*/
+	font-size: 15px;
 	line-height: 1.5;
 	background-color: rgba(51,51,51,0.8);
 	/*background-color: rgba (51,51,51);*/
 	/*opacity: .8;*/
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
 }
 
 .container {

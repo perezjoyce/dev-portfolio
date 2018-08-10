@@ -13,12 +13,13 @@ body {
 
 h1	{
 	font-size: 50px;
-	margin-bottom: 0;
+	/*margin-bottom: 10px;*/
 	background-color: #333;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 7px;
 	text-shadow: 2px 2px #211f1f;
-}
+	padding-bottom: 5px;
+	}
 
 h2 {
 	text-transform: uppercase;
@@ -28,20 +29,20 @@ h2 {
 	}
 
 #me {
+	/*margin-top: 50px;*/
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	border-style: solid;
+	border-style: unset;
 	border-width: 5px;
 	border-color: white;
-	margin-top: 200px;
 }
 
 .about {
 	/*width: 100%;*/
 	font-size: 15px;
 	line-height: 1.5;
-	background-color: rgba(51,51,51,0.8);
+	/*background-color: rgba(51,51,51,0.8);*/
 	/*background-color: rgba (51,51,51);*/
 	/*opacity: .8;*/
 	font-family: 'Quicksand', sans-serif;
@@ -50,7 +51,13 @@ h2 {
 
 .container {
 	width: 500px;
+		/*di gagana si margin: 0 auto; if width is not declared*/
 	margin: 0 auto;
+	margin-top: 150px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	background-color: rgba(51,51,51,0.8);
+	border: 1px solid rgba(255,255,255,.4);
 	text-align: center;
-	/*di gagana si margin: 0 auto; if width is not declared*/
+	
 }
